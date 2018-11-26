@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: wheat;
+}
+
+#coolInput {
+    width: 50%;
+    font-size: 5rem;
+    padding: 2rem;
+    border: 1rem double skyblue;
+    border-radius: 1rem;
+    color: darkslategrey;
+}
+
+#coolInput:focus {
+  border: 1rem solid skyblue;
+}
