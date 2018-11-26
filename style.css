@@ -19,6 +19,7 @@ body {
     border: 1rem double skyblue;
     border-radius: 1rem;
     color: darkslategrey;
+    text-align: center;
 }
 
 #coolInput:focus {
